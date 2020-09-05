@@ -1,0 +1,18 @@
+/* @font-face {font-family: uniicons;font-weight: normal;font-style: normal;} */
+/*通用 src: url('https://cdn.colourfulchina.com/nwsh/static/uni.ttf') format('truetype');*/
+@import url("//at.alicdn.com/t/font_1904750_2zqgqopchzp.css");
+page {background: #F8F8F8;overflow-x: hidden;width: 100%;height: 100%;max-width: 750rpx;color: #333;font-size: 28rpx; font-family: PingFangSC-Regular,Helvetica,Microsoft YaHei}
+view {margin: 0rpx;box-sizing: border-box;}
+image {width: 100%; height: 100%;display: block;}
+input {padding: 0; margin: 0;width: 100%; height: 100%;}
+button {position: relative;display: block;margin: 0; padding: 0;box-sizing: box; font-size: 28rpx; text-align: center; text-decoration: none; line-height: 30rpx; border-radius: 0px; -webkit-tap-highlight-color: transparent; overflow: hidden; color: #000000;background-color: transparent;}
+button::after { content: " "; width: 100%; height: 100%; position: absolute; top: 0; left: 0; border: 0px solid rgba(0, 0, 0, 0.2); -webkit-transform: scale(0);transform: scale(0);  -webkit-transform-origin: 0 0; transform-origin: 0 0; box-sizing: border-box; border-radius: 0px;}
+.Flex-box {margin:0 30rpx; padding: 30rpx; box-sizing: border-box; background: #FFFFFF; border-radius: 10rpx; box-shadow: 0 5rpx 5px rgba(0,0,0,0.05);}
+.Flex-box:nth-child(n+1) {margin:0 30rpx 30rpx 30rpx;}
+.Flex-sb {display: flex;align-items: center; align-content: center; justify-content: space-between;}
+.Flex-fs {display: flex;align-items: center; align-content: center; justify-content: flex-start;}
+.Flex-cen {display: flex;align-items: center; align-content: center; justify-content: center;}
+.Flex-BtnBox{text-align: center; padding: 50rpx 30rpx;}
+.Flex-Btn-lg{width: 100%; background:#FF4B5B; color: #FFFFFF; text-align: center; display: block; height: 80rpx; line-height: 80rpx; border-radius: 40rpx; font-size: 32rpx;}  /**一级**/
+.ellipsis{ white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.two-ellipsis {overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;}
